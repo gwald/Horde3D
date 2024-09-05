@@ -177,7 +177,7 @@ Then open your browser, and navigate to [http://localhost:9000](http://localhost
 ### Build Horde3D scene editor
 
 There is also a scene editor available for Horde3D. To enabling build of the editor, first make sure you have the Qt 5.15 or any newer Qt 6.x SDK installed. 
-On Windows, install Qt via Qt online installer from qt.io. On Linux, Qt is usually preinstalled. If not, use your distribution package system to install qt.
+On Windows, install Qt via Qt online installer from [[qt.io](https://www.qt.io/download-qt-installer-oss)](https://www.qt.io/download-qt-installer-oss). On Linux, Qt is usually preinstalled. If not, use your distribution package system to install qt.
 To enable creating makefiles for the editor via cmake set the HORDE3D_BUILD_EDITOR flag to ON (default is OFF).
 
     cmake -DHORDE3D_BUILD_EDITOR=ON
